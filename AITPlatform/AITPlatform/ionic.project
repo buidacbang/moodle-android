@@ -1,0 +1,17 @@
+{
+  "name": "AIT Learning",
+  "app_id": "com.viettel.VTTLearning",
+  "gulpStartupTasks": [
+    "build",
+    "sass",
+    "watch",
+    "lang",
+    "config"
+  ],
+  "watchPatterns": [
+    "www/**/*.html",
+    "www/build/**/*",
+    "www/index.html",
+    "!www/lib/**/*"
+  ]
+}
